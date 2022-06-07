@@ -1,5 +1,7 @@
 # Template for producer-consumer model robots using work items
 
+_This is originally from [Robocorp template](https://github.com/robocorp/template-producer-consumer)._
+
 This template contains a working robot implementation that has the basic structure where one part produces work items from input and another part that consumes those work items. 
 
 > The [producer-consumer](https://en.wikipedia.org/wiki/Producer%E2%80%93consumer_problem) model is not limited to two steps, it can continue so that the consumer generates further work items for the next step and so on.
