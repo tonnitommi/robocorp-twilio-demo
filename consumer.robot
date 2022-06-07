@@ -15,7 +15,7 @@ Write notification log
     [Documentation]
     ...    Writes log of notification activities
     [Arguments]    ${payload}
-    Log To Console    Here the robot would update records in relevant systems that ${payload["Name"]} was notified by SMS, and maybe the delivery status of the messages.
+    Log To Console    Here the robot would update records in relevant systems that ${payload["Name"]} was notified by SMS, and log the delivery status of the messages.
 
 
 Action for item
