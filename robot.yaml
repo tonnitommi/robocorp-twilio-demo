@@ -3,6 +3,8 @@ tasks:
     robotTaskName: Produce items
   Consume:
     robotTaskName: Consume items
+  ReadNotifyLog:
+    robotTaskName: Appointment remind
 
 artifactsDir: output
 condaConfigFile: conda.yaml
