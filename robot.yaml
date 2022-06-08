@@ -1,8 +1,4 @@
 tasks:
-  Produce:
-    robotTaskName: Produce items
-  Consume:
-    robotTaskName: Consume items
   ReadNotifyLog:
     robotTaskName: Appointment remind
 
