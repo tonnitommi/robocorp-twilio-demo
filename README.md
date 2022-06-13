@@ -15,6 +15,7 @@ Then, follow Google Sheet Service account setup guide from [here](https://roboco
 ![vault-google](https://user-images.githubusercontent.com/40179958/173300620-4b2d9f3e-c9b7-4152-ba11-e6c133e2886b.png)
 
 Also add in the same vault your `sheet_id` as a key, and get the value from the URL of your Google sheet. It's the part of the URL that looks like this:
+
 ![sheet-id](https://user-images.githubusercontent.com/40179958/173300650-531cc517-08ed-46b6-bff2-f34ca4b4a1a8.png)
 
 ### Twilio setup
@@ -31,6 +32,7 @@ Next, find the account SID, Auth Token and your Twilio "from" number from the ac
 Unless you created the robot already in the Control Room, that needs to be done next. Follow the guide [here](https://robocorp.com/docs/development-guide/control-room/configuring-robots).
 
 Once the robot is configured in the Control Room and you have the code open in VS Code, it's very handy to use the Mark the Monkey tab to link your development environment with the Control Room, as well as to connect with the Vault.
+
 ![vs-code](https://user-images.githubusercontent.com/40179958/173300728-b9f2e079-b592-4bed-8abc-7485937a7075.png)
 
 Good to go! Have fun and send us feedback! <3
