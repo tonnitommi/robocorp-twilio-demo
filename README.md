@@ -1,4 +1,4 @@
-# Reads Google Sheet for appointment details and sends SMS reminder with Twilio
+# SMS reminders with Twilio
 
 This robot reads details (name, details and mobile number) from a given Google Sheet, and sends an SMS reminder for each row using Twilio, using `RPA.Notify` library. The main purpose of the demo is to demonstrate the simplicity of SMS messaging from a robot.
 
