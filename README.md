@@ -8,11 +8,9 @@ This example uses the Vault in Control Room to store secrets that are required t
 
 ### Google Sheets setup
 
-Copy the Google Sheet to yourself.
-https://docs.google.com/spreadsheets/d/1QFvDR5GnGAI_TQL5uhmgkAiLiDsNc7cwUrPpDF2PUp0/edit#gid=0
+Start by copying the Google Sheet for the demo purposes to yourself. Here's a [sample](https://docs.google.com/spreadsheets/d/1QFvDR5GnGAI_TQL5uhmgkAiLiDsNc7cwUrPpDF2PUp0/edit#gid=0). Make sure to use the same names for the two sheets: `Appt` for appointments and `Log` for the send log, and with the exact same column names (unless you want to edit the robot code accordingly).
 
-Follow Google Sheet Service account setup guide from here. This example uses vault named `Google` and a key named `service_account`.
-https://robocorp.com/docs/development-guide/google-sheets/interacting-with-google-sheets#storing-the-credentials-in-control-room-vault
+Then, follow Google Sheet Service account setup guide from [here](https://robocorp.com/docs/development-guide/google-sheets/interacting-with-google-sheets#storing-the-credentials-in-control-room-vault). This example uses vault named `Google` and a key named `service_account`.
 
 Also add in the same vault your `sheet_id` as a key, and get the value from the URL of your Google sheet. It's the part of the URL that looks like this:
 
@@ -29,3 +27,5 @@ Unless you created the robot already in the Control Room, that needs to be done 
 Once the robot is configured in the Control Room and you have the code open in VS Code, it's very handy to use the Mark the Monkey tab to link your development environment with the Control Room, as well as to connect with the Vault.
 
 
+
+Good to go! Have fun and send us feedback! <3
